@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CMPM 121 Final</title>
+    
+    <link rel="stylesheet" href="src/style.css">
+    <link rel="manifest" href="src/manifest.webmanifest"/>
+</head>
+<body>
+    <!-- Has to be first -->
+    <script src="lib/phaser.js"></script>
+
+    <!-- Utilities -->
+    <script src="src/Utils/EventDispatcher.js"></script>
+    <script src="src/Utils/gameState.js"></script>
+    <script src="src/Utils/OuterUI.js"></script>
+    <script src="src/Utils/PlantDefinition.js"></script>
+    <script src="src/Utils/PlantParser.js"></script>
+
+    <script src="src/prefabs/NewPlant.js"></script>
+
+    <!--  all scene scripts here -->
+    <script src="src/scenes/Menu.js"></script>
+    <script src="src/scenes/Credits.js"></script>
+    <script src="src/scenes/Play.js"></script>
+    <script src="src/scenes/UIScene.js"></script>
+
+    <script src="src/scenes/Test.js"></script>
+
+    <!--  all prefab scripts here -->
+    <script src="src/prefabs/Player.js"></script>
+    <script src="src/prefabs/Plant.js"></script>
+    <script src="src/prefabs/Cell.js"></script>
+    <script src="src/prefabs/SaveManager.js"></script>
+
+    <script src="src/general.css"></script>
+    
+    <!-- Has to be last -->
+    <script src="src/main.js"></script>
+</body>
+</html>
